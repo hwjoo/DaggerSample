@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
         ((MyApp)getApplication()).getmGitHubComponent().inject(this);
+        getApplication();
     }
 
     @OnClick(R.id.fab)
